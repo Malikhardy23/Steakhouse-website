@@ -1,0 +1,137 @@
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    background-color: #b42727;
+    height: 350px;
+}
+
+.contentContainer .menuContainer .dinner{
+    background: url('https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 300px;
+    width: 600px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.contentContainer .menuContainer .lunch{
+    background: url('https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 300px;
+    width: 600px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.contentContainer .menuContainer .bar{
+    background: url('https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 300px;
+    width: 600px;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.contentContainer .menuContainer .dessert{
+    background: url('https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 300px;
+    width: 600px;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 10%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.contentContainer .menuContainer .dinner, .lunch, .bar, .dessert a{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.contentContainer .menuContainer 
+.dinner, 
+.lunch, 
+.bar, 
+.dessert{
+    transition: all .4s ease-in-out;
+    margin: 5px;
+    letter-spacing: 4px;
+}
+
+.contentContainer .menuContainer a, .fa-utensils{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.contentContainer .menuContainer .dessert:hover{
+    filter: brightness(30%);
+}
+
+.contentContainer .menuContainer .dinner:hover{
+    filter: brightness(30%);
+}
+
+.contentContainer .menuContainer .bar:hover{
+    filter: brightness(30%);
+}
+
+.contentContainer .menuContainer .lunch:hover{
+    filter: brightness(30%);
+}
+
+/* */
+
+.contentContainer .menuContainer .dessert a{
+    border: 5px solid #fff;
+    margin: 20px;
+    padding: 50px;
+    z-index: 900;
+}
+
+.contentContainer .menuContainer .dinner a{
+    border: 5px solid #fff;
+    margin: 20px;
+    padding: 50px;
+    z-index: 900;
+}
+
+.contentContainer .menuContainer .bar a{
+    border: 5px solid #fff;
+    margin: 20px;
+    padding: 50px;
+    z-index: 900;
+}
+
+.contentContainer .menuContainer .lunch a{
+    border: 5px solid #fff;
+    margin: 20px;
+    padding: 50px;
+    z-index: 900;
+}
+
+#contentContainer button#eventBtn{
+    padding: 20px;
+    font-size: 25px;
+    margin: 70% 0% 0% 5%;
+    cursor: pointer;
+    background-color: #b42727;
+    border: none;
+    letter-spacing: 5px;
+    color: white;
+    transition: all .4s ease-in-out;
+
+}
+
+
+#contentContainer button#eventBtn:hover{
+    background-color: #fff;
+    color:  #b42727;
+}
+
+

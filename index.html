@@ -19,7 +19,7 @@
                 <a href="#about">About</a>
                 <a href="#menu">Menu</a>
                 <a href="#reservations">Reservations</a>
-                <a href="#events">Events</a>
+                <a href="#event">Events</a>
                 <a href="#contact">Contact</a>
             </navbar>
             <div class="homeTxtcontainer">
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="contentContainer" id="contentContainer">
-            <div class="menuContainer">
+            <div class="menuContainer" id="menu">
                 <div class="dinner">
                     <a href="View Menu">Dinner</a>
                 </div>
@@ -81,24 +81,96 @@
             <div id="eventContainer">
                 <div id="event">
                     <div class="eventInfo">
-                        <div class="eventImg"></div>
-                        <div class="eventDate">
-                            <h5>BBQ Party</h5>
-                            <h5>February 16, 2021</h5>
-                            <h5>7pm - 10pm</h5>
-                        </div>
                         <div class="eventTitleContainer">
                             <h1 class="eventTitle">Upcoming Event</h1>
+                            <div class="eventDate">
+                                <h5>BBQ Party & Karaoke</h5>
+                                <h5>February 16, 2021</h5>
+                                <h5>7pm - 10pm</h5>
+                            </div>
                         </div>
+                        <div class="evemtImg3"></div>
+                        <div class="eventImg1">
+                            <div class="eventBtn">
+                                <button id="eventBtn">Make a Reservation</button>
+                            </div>
+                        </div>
+                        <div class="eventImg2"></div>
                     </div>
-                </div>
-                <div class="eventBtn">
-                    <button id="eventBtn">Make a Reservation</button>
                 </div>
             </div>
         </div>
-        <div class="bottomContainer" id="bottomContainer"></div>
+        <div class="bottomContainer" id="bottomContainer">
+            <div class="mapContainer">
+                <div id="map"></div>
+            </div>
+            <div class="icons-container">
+                <div class="phone">
+                    <i class="fas fa-phone-volume"></i><span>+1 800 603 6035</span>
+                </div>
+                <div class="location">
+                    <i class="fas fa-globe-americas"></i><span>56 12th Ave,
+                        New York, NY 10011</span>
+                </div>
+                <div class="hours">
+                    <i class="far fa-clock"></i><span>Monday - Saturday: Noon - 11pm</span>
+                </div>
+            </div>
+            <div class="reservations" id="reservations">
+                    <div class="reservationsTitle">
+                        <h1>Make a Reservation</h1>
+                    </div>
+                    <div class="userInput">
+                        <input type="datetime" placeholder="11/16/2020">
+                        <input type="time" placeholder="7:00 pm">
+                        <input type="number" placeholder="2 guests">
+                        <button id="reservationsBtn">Book a Table</button>
+                    </div>
+            </div>
+            <div class="gallery">
+                <div class="gall Image1"></div>
+                <div class="gall Image2"></div>
+                <div class="gall Image3"></div>
+                <div class="gall Image4"></div>
+                <div class="gall Image5"></div>
+                <div class="gall Image6"></div>
+                <div class="gall Image7"></div>
+                <div class="gall Image8"></div>
+                <div class="gall Image9"></div>
+                <div class="gall Image10"></div>
+            </div>
+            <footer id="footer">
+                <div class="mailingList" id="contact">
+                    <h4>Join Our Mailing List</h4>
+                    <p>Sign up now and get news and special offers</p>
+                    <input type="email" placeholder="Enter Your Email Address"><span><button type="submit"><i class="far fa-envelope"></i></button></span>
+                </div>
+                <div class="socialMediaIcons">
+                    <h4>Stay Connected</h4>
+                    <p>Follow us on social media channels</p>
+                    <div class="socialMediaContainer">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-snapchat-ghost"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="awards">
+                    <h4>Our Awards</h4>
+                    <div class="awardsContainer">
+                        <div class="award award1"></div>
+                        <div class="award award2"></div>
+                        <div class="award award3"></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?libraries=places
+        &key=AIzaSyCkyndwxcea0z9ESNI-dQLwzHzINx8Va8Y&callback=initMap">
+</script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="index.js"></script>
 </body>

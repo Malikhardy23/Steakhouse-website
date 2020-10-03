@@ -1,0 +1,71 @@
+
+/* Small Phones */ 
+
+@media screen and (max-width: 480px) {
+    /* EVENT */
+
+#event{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#event h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    width: 35%;
+    padding: 5px;
+    margin-bottom: 10%;
+}
+
+#event .eventInfo{
+    display: flex;
+    flex-direction: row;
+}
+
+#event .eventDate{
+    display: flex;
+    flex-direction: column;
+    color: #b42727;
+}
+
+#event .eventDate h5{
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#event .eventImg1{
+    background: url('https://velikorodnov.com/html/steakbreak/images/763x648_img1.png');
+    width: 400px;
+    height: 500px;
+    background-position: center center;
+    background-size: contain;
+    margin: 20px;
+    border: 15px solid #fff;
+}
+
+#event .eventImg2{
+    background: url('https://images.pexels.com/photos/1558916/pexels-photo-1558916.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    width: 400px;
+    height: 500px;
+    background-position: center center;
+    background-size: contain;
+    margin: 20px;
+    border: 15px solid #fff;
+}
+
+#event .evemtImg3{
+    background: url('https://images.pexels.com/photos/1840320/pexels-photo-1840320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    width: 400px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    margin: 20px;
+    border: 15px solid #fff;
+}
+ }

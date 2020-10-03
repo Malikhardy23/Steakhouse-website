@@ -1,0 +1,77 @@
+.midContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.midContainer .aboutContainer {
+    display: flex;
+   flex-direction: row;
+   margin: 5%;
+}
+
+
+.aboutContainer .aboutText{
+    font-size: 25px;
+    text-align: center;
+}
+.aboutContainer .midImage1{
+    background: url('https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: contain;
+    background-position: center center;
+    height: 1000px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.aboutContainer .rectangle1{
+    background-color: gold;
+    width: 1000px;
+    height: 265px;
+    position: absolute;
+    top: 140%;
+}
+
+.aboutContainer .dialogue-mid{
+    padding: 20px 15px;
+    text-align: left;
+    margin-top: 20%;
+}
+
+.aboutContainer .dialogue-mid h1{
+    font-size: 40px;
+}
+
+
+.aboutContainer .dialogue-mid h1, h4, p, a{
+    padding: 10px;
+    line-height: 30px;
+    position: relative;
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35%;
+   
+}
+
+.detailsContainer .quality, .ingredients, .grill{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+    color: #b42727;
+    background-color: #E6CD82;
+    padding-top: 50px;
+    border-top: 5px solid #b42727;
+    border-bottom: 5px solid #b42727;
+}
+
+/* end of midSection */

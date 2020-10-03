@@ -1,0 +1,229 @@
+#map{
+    margin-top: 10%;
+    height: 700px;
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.bottomContainer .icons-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: center;
+    background-color: #fff;
+    border-top: 5px solid #b42727;
+    border-bottom: 5px solid  #b42727;
+    height: 120px;
+    width: 100%;
+}
+
+.bottomContainer .icons-container span{
+    padding: 10px;
+    font-size: 25px;
+    color: #b42727;
+}
+
+.bottomContainer .icons-container .fas{
+    font-size: 25px;
+}
+
+.bottomContainer .icons-container .far{
+    font-size: 25px;
+}
+
+
+.reservations{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.reservations h1, input{
+    text-align: center;
+    margin: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+.reservations input{
+    font-size: 18px;
+}
+
+.reservations button{
+    padding: 11px;
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #b42727;
+    border: 3px solid #000;
+    transition: all .4s ease-in-out;
+}
+
+.reservations button:hover{
+    background-color: #b42727;
+    border: 3px solid #000;
+    color: white;
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+
+.gallery .gall{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+.gallery .gall:hover{
+    transition: all .4s ease-in-out;
+    filter: brightness(50%);
+}
+
+
+.gallery .Image1{
+    background: url('https://images.pexels.com/photos/3535395/pexels-photo-3535395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image2{
+    background: url('https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image3{
+    background: url('https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image4{
+    background: url('https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image5{
+    background: url('https://images.pexels.com/photos/602750/pexels-photo-602750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image6{
+    background: url('https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image7{
+    background: url('https://images.pexels.com/photos/87818/background-berries-berry-blackberries-87818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image8{
+    background: url('https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image9{
+    background: url('https://images.pexels.com/photos/3821692/pexels-photo-3821692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+.gallery .Image10{
+    background: url('https://images.pexels.com/photos/4294500/pexels-photo-4294500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #1c181a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 15px solid #b42727;
+    border-bottom: 15px solid #b42727;
+}
+
+#footer .mailingList, .socialMediaIcons, .awards{
+    margin: 2.5%;
+}
+
+#footer .mailingList input{
+    letter-spacing: 1px;
+    width: 250px;
+}
+
+
+#footer .socialMediaContainer .fab{
+    transition: all .4s ease-in-out;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#footer .socialMediaContainer .fab:hover{
+    color: #b42727;
+}
+
+#footer button{
+    padding: 8px;
+    cursor: pointer;
+    color: #b42727;
+    background-color: #fff;
+    border: 1px solid black;
+    transition: all .4s ease-in-out;
+}
+
+#footer button:hover{
+    background-color: gray;
+}
+
+.awards .awardsContainer{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.awards .award{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.awards .awardsContainer .award1{
+    background: url('https://lh3.googleusercontent.com/proxy/G6paNo31X7x3EhutjfuDWsVwn0DCKgLSq3RDpYNf-L5c2ryGzjvWDxIX0xdYN-Wn_F5Dxmlz7qV6Dzcb1rlvXim_JT2CHHzFxy0luWi3eM_xvklqnP3XfbDMxA6DkxXUkmOCuA1MgMBcxfZUzA0WWzs');
+    background-position: center center;
+    background-size: cover;
+}
+
+.awards .awardsContainer .award2{
+    background: url('https://velikorodnov.com/html/steakbreak/images/awards.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.awards .awardsContainer .award3{
+    background: url('https://westchestermagazine.com/wp-content/uploads/sites/4/2020/04/BOW_FB_profile_winner1-1-1024x1024.jpg');
+    background-position: center center;
+    background-size: cover;
+}
