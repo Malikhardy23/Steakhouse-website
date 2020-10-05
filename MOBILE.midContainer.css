@@ -1,0 +1,657 @@
+/* iPhone 6, 7, & 8 in portrait */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+    .midContainer{
+        display: flex;
+        flex-direction: column;
+        width: 350%;
+        
+    }
+    
+    .aboutContainer{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .midContainer .aboutContainer {
+        display: flex;
+       flex-direction: row;
+       margin: 5%;
+       width: 100%;
+    }
+    
+    
+    .aboutContainer .aboutText{
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .aboutContainer .midImage1{
+        background: url('https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size: contain;
+        background-position: center center;
+        height: 1000px;
+        width: 1000px;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+    
+    .aboutContainer .rectangle1{
+        background-color: gold;
+        width: 1000px;
+        height: 295px;
+        position: absolute;
+        top: 165%;
+    }
+    
+    .aboutContainer .dialogue-mid{
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 20%;
+        width: 200%;
+        margin-top: 38%;
+        position: relative;
+        bottom: 13rem;
+    }
+    
+    .aboutContainer .dialogue-mid h1{
+        font-size: 40px;
+        width: 200%;
+    }
+    
+    
+    .aboutContainer .dialogue-mid 
+    h1,
+    h4,
+    p,
+    a{
+        padding: 10px;
+        line-height: 30px;
+        position: relative;
+        width: 100%;
+        top: 0%;
+    }
+
+
+    
+    .detailsContainer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 35%;
+        width: 90rem;
+    }
+    
+    .detailsContainer .quality, .ingredients, .grill{
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        font-size: 25px;
+        color: #b42727;
+        background-color: #E6CD82;
+        padding-top: 50px;
+        border-top: 5px solid #b42727;
+        border-bottom: 5px solid #b42727;
+        display: flex;
+        flex-flow: column;
+    }
+    
+    /* end of midSection */
+ }
+
+
+  /* IPHONE 6,7,8 LANDSCAPE */
+
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px) 
+  and (orientation : landscape) {
+    .midContainer{
+        display: flex;
+        flex-direction: column;
+        width: 90rem;
+        
+    }
+    
+    .aboutContainer{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .midContainer .aboutContainer {
+       display: flex;
+       flex-direction: row;
+       margin: 5%;
+       width: 100rem;
+    }
+    
+    
+    .aboutContainer .aboutText{
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        width: 50%;
+    }
+    
+    .aboutContainer .midImage1{
+        background: url('https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size: contain;
+        background-position: center center;
+        height: 1000px;
+        width: 60rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 50%;
+    }
+    
+    .aboutContainer .rectangle1{
+        background-color: gold;
+        width: 840px;
+        height: 295px;
+        position: absolute;
+        top: 269%;
+        left: 50%;
+    }
+    
+    .aboutContainer .dialogue-mid{
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 20%;
+        width: 100rem;
+        margin-top: 38%;
+        position: relative;
+        bottom: 20rem;
+    }
+    
+    .aboutContainer .dialogue-mid h1{
+        font-size: 40px;
+        width: 200%;
+    }
+    
+    
+    .aboutContainer .dialogue-mid 
+    h1,
+    h4,
+    p,
+    a{
+        padding: 10px;
+        line-height: 30px;
+        position: relative;
+        width: 100%;
+        top: 0%;
+    }
+
+    .detailsContainer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 35%;
+        width: 110rem;
+       
+    }
+    
+    .detailsContainer .quality, .ingredients, .grill{
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        font-size: 25px;
+        color: #b42727;
+        background-color: #E6CD82;
+        padding-top: 50px;
+        border-top: 5px solid #b42727;
+        border-bottom: 5px solid #b42727;
+        display: flex;
+        flex-flow: column;
+    }
+  }
+
+/* IPHONE X PORTRAIT */
+
+  @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+
+    .aboutContainer .dialogue-mid{
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 20%;
+        width: 200%;
+        margin-top: 38%;
+        position: relative;
+        bottom: 10rem;
+    }
+
+}
+
+/* iPhone 6, 7, & 8 Plus in portrait */
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+
+    .aboutContainer .rectangle1{
+        background-color: gold;
+        width: 840px;
+        height: 295px;
+        position: absolute;
+        top: 150%;
+        left: 111%;
+    }
+
+
+    .aboutContainer .dialogue-mid{
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 20%;
+        width: 100rem;
+        margin-top: 38%;
+        position: relative;
+        bottom: 20rem;
+    }
+
+}
+
+/*************************************************************/
+
+/* iPhone 6, 7, & 8 Plus in landscape */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+
+    .aboutContainer .rectangle1 {
+        background-color: gold;
+        width: 840px;
+        height: 295px;
+        position: absolute;
+        top: 60rem;
+        left: 50%;
+    }
+
+    .aboutContainer .dialogue-mid {
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 20%;
+        width: 100rem;
+        margin-top: 46%;
+        position: relative;
+        bottom: 30rem;
+    }
+
+}
+
+
+
+/*************************************************************/
+
+/* IPHONE X LANDSCAPE */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+
+    .midContainer {
+        display: flex;
+        flex-direction: column;
+        width: 110rem;
+    }
+
+    .midContainer .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        width: 110rem;
+    }
+
+    .aboutContainer .dialogue-mid {
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 10%;
+        width: 200%;
+    }
+
+    .aboutContainer .aboutText {
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        width: 110rem;
+    }
+
+    .aboutContainer .rectangle1 {
+        background-color: gold;
+        width: 1000px;
+        height: 295px;
+        position: absolute;
+        top: 65rem;
+    }
+
+    .detailsContainer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20%;
+        width: 110rem;
+    }
+}
+
+/* iPad 1, 2, Mini and Air Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .midContainer {
+        display: flex;
+        flex-direction: column;
+        width: 110rem;
+    }
+
+    .midContainer .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        width: 110rem;
+    }
+
+    .aboutContainer .dialogue-mid {
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 10%;
+        width: 200%;
+    }
+
+    .aboutContainer .aboutText {
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        width: 110rem;
+    }
+
+    .aboutContainer .rectangle1 {
+        background-color: gold;
+        width: 1000px;
+        height: 295px;
+        position: absolute;
+        top: 65rem;
+    }
+
+    .detailsContainer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30%;
+        width: 110rem;
+    }
+
+  }
+
+
+
+  /* iPad 1, 2, Mini and Air Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .midContainer {
+        display: flex;
+        flex-direction: column;
+        width: 110rem;
+    }
+
+    .midContainer .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        width: 110rem;
+    }
+
+    .aboutContainer .dialogue-mid {
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 10%;
+        width: 200%;
+    }
+
+    .aboutContainer .aboutText {
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        width: 110rem;
+    }
+
+    .aboutContainer .rectangle1 {
+        background-color: gold;
+        width: 1000px;
+        height: 400px;
+        position: absolute;
+        top: 137%;
+    }
+
+    .detailsContainer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30%;
+        width: 110rem;
+    }
+
+}
+
+  /* IPHONE 11 PORTRAIT */ 
+
+  @media only screen 
+  and (device-width: 414px) 
+  and (device-height: 896px) 
+  and (orientation : portrait) 
+  and (-webkit-device-pixel-ratio: 2){
+
+    .midContainer {
+        display: flex;
+        flex-direction: column;
+        width: 110rem;
+    }
+
+    .midContainer .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        width: 110rem;
+    }
+
+    .aboutContainer .dialogue-mid {
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 10%;
+        width: 200%;
+    }
+
+    .aboutContainer .aboutText {
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        width: 110rem;
+    }
+
+    .aboutContainer .rectangle1 {
+        background-color: gold;
+        width: 1000px;
+        height: 295px;
+        position: absolute;
+        top: 65rem;
+    }
+
+    .detailsContainer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30%;
+        width: 110rem;
+    }
+
+  }
+
+
+
+  /* iPad 1, 2, Mini and Air Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .midContainer {
+        display: flex;
+        flex-direction: column;
+        width: 110rem;
+    }
+
+    .midContainer .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        width: 110rem;
+    }
+
+    .aboutContainer .dialogue-mid {
+        padding: 20px 15px;
+        text-align: left;
+        margin-top: 10%;
+        width: 200%;
+    }
+
+    .aboutContainer .aboutText {
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        width: 110rem;
+    }
+
+    .aboutContainer .rectangle1 {
+        background-color: gold;
+        width: 1000px;
+        height: 400px;
+        position: absolute;
+        top: 137%;
+    }
+
+    .detailsContainer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30%;
+        width: 110rem;
+    }
+
+   }
+
+/* IPHONE 11 LANDSCAPE */
+
+   @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3){
+
+        .midContainer {
+            display: flex;
+            flex-direction: column;
+            width: 110rem;
+        }
+    
+        .midContainer .aboutContainer {
+            display: flex;
+            flex-direction: row;
+            margin: 5%;
+            width: 110rem;
+        }
+    
+        .aboutContainer .dialogue-mid {
+            padding: 20px 15px;
+            text-align: left;
+            margin-top: 10%;
+            width: 200%;
+        }
+    
+        .aboutContainer .aboutText {
+            font-size: 25px;
+            text-align: center;
+            margin: 20px;
+            width: 110rem;
+        }
+    
+        .aboutContainer .rectangle1 {
+            background-color: gold;
+            width: 1000px;
+            height: 295px;
+            position: absolute;
+            top: 65rem;
+        }
+    
+        .detailsContainer {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30%;
+            width: 110rem;
+        }
+    
+      }
+    
+    
+    
+      /* iPad 1, 2, Mini and Air Landscape */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: landscape) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+    
+        .midContainer {
+            display: flex;
+            flex-direction: column;
+            width: 110rem;
+        }
+    
+        .midContainer .aboutContainer {
+            display: flex;
+            flex-direction: row;
+            margin: 5%;
+            width: 110rem;
+        }
+    
+        .aboutContainer .dialogue-mid {
+            padding: 20px 15px;
+            text-align: left;
+            margin-top: 10%;
+            width: 200%;
+        }
+    
+        .aboutContainer .aboutText {
+            font-size: 25px;
+            text-align: center;
+            margin: 20px;
+            width: 110rem;
+        }
+    
+        .aboutContainer .rectangle1 {
+            background-color: gold;
+            width: 1000px;
+            height: 325px;
+            position: absolute;
+            top: 65rem;
+        }
+    
+        .detailsContainer {
+            display: flex;
+            flex-direction: row;
+            margin-top: 30%;
+            width: 110rem;
+        }
+
+     }
